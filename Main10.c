@@ -4,19 +4,13 @@
 int main() {
     int totalSeconds, hours, minutes, seconds;
 
-    printf("Input 1:\n");
+    printf("Input :\n");
     scanf("%d", &totalSeconds);
     hours = totalSeconds / 3600;
     minutes = (totalSeconds % 3600) / 60;
     seconds = totalSeconds % 60;
     printf("Output 1:\n%d:%d:%d\n\n", hours, minutes, seconds);
 
-    printf("Input 2:\n");
-    scanf("%d", &totalSeconds);
-    hours = totalSeconds / 3600;
-    minutes = (totalSeconds % 3600) / 60;
-    seconds = totalSeconds % 60;
-    printf("Output 2:\n%d:%d:%d\n", hours, minutes, seconds);
-
     return 0;
 }
+
