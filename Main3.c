@@ -4,19 +4,18 @@
 
 int main() {
     int length, breadth;
-    int area, perimeter;
 
-    printf("Input 1:\n");
-    scanf("%d %d", &length, &breadth);
-    area = length * breadth;
-    perimeter = 2 * (length + breadth);
-    printf("Output 1:\nArea=%d, Perimeter=%d\n\n", area, perimeter);
+    printf("Enter length of rectangle: ");
+    scanf("%d", &length);
 
-    printf("Input 2:\n");
-    scanf("%d %d", &length, &breadth);
-    area = length * breadth;
-    perimeter = 2 * (length + breadth);
-    printf("Output 2:\nArea=%d, Perimeter=%d\n", area, perimeter);
+    printf("Enter breadth of rectangle: ");
+    scanf("%d", &breadth);
+
+    int area = length * breadth;
+    int perimeter = 2 * (length + breadth);
+
+    printf("Area = %d\n", area);
+    printf("Perimeter = %d\n", perimeter);
 
     return 0;
 }
