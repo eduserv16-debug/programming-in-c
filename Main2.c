@@ -4,23 +4,17 @@
 
 int main() {
     int a, b;
-    int sum, diff, product, quotient;
 
-    printf("Input 1:\n");
-    scanf("%d %d", &a, &b);
-    sum = a + b;
-    diff = a - b;
-    product = a * b;
-    quotient = a / b;
-    printf("Output 1:\nSum=%d, Diff=%d, Product=%d, Quotient=%d\n\n", sum, diff, product, quotient);
+    printf("Enter first number: ");
+    scanf("%d", &a);
 
-    printf("Input 2:\n");
-    scanf("%d %d", &a, &b);
-    sum = a + b;
-    diff = a - b;
-    product = a * b;
-    quotient = a / b;
-    printf("Output 2:\nSum=%d, Diff=%d, Product=%d, Quotient=%d\n", sum, diff, product, quotient);
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
+    printf("Sum = %d\n", a + b);
+    printf("Difference = %d\n", a - b);
+    printf("Product = %d\n", a * b);
+    printf("Quotient = %d\n", a / b);  // works only if b ≠ 0
 
     return 0;
 }
