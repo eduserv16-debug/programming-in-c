@@ -5,19 +5,19 @@
 int main() {
     int a, b, temp;
 
-    printf("Input 1:\n");
-    scanf("%d %d", &a, &b);
-    temp = a;
-    a = b;
-    b = temp;
-    printf("Output 1:\nAfter swap: %d %d\n\n", a, b);
+    printf("Enter first number: ");
+    scanf("%d", &a);
 
-    printf("Input 2:\n");
-    scanf("%d %d", &a, &b);
+    printf("Enter second number: ");
+    scanf("%d", &b);
+
     temp = a;
     a = b;
     b = temp;
-    printf("Output 2:\nAfter swap: %d %d\n", a, b);
+
+    printf("After swapping:\n");
+    printf("First number = %d\n", a);
+    printf("Second number = %d\n", b);
 
     return 0;
 }
