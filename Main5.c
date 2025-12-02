@@ -5,15 +5,13 @@
 int main() {
     float celsius, fahrenheit;
 
-    printf("Input 1:\n");
+    printf("Enter temperature in Celsius: ");
     scanf("%f", &celsius);
-    fahrenheit = (celsius * 9 / 5) + 32;
-    printf("Output 1:\nFahrenheit=%.0f\n\n", fahrenheit);
 
-    printf("Input 2:\n");
-    scanf("%f", &celsius);
     fahrenheit = (celsius * 9 / 5) + 32;
-    printf("Output 2:\nFahrenheit=%.0f\n", fahrenheit);
+
+    printf("Temperature in Fahrenheit = %.2f\n", fahrenheit);
 
     return 0;
 }
+
